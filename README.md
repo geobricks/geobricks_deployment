@@ -1,4 +1,4 @@
 geobricks_deployment
 ====================
 
-Geobrickes depolyment library
+Geobrickes deployment library
