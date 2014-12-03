@@ -1,5 +1,6 @@
 Red Hat 6 installation
 
+
 yum install gdal-bin
 yum install libgdal1h
 yum install libgdal-dev
