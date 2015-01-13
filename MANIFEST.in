@@ -1,2 +1,6 @@
 include *.md *.txt *.json
-recursive-include geobricks_dbms *
+recursive-include geobricks_deployment *
+recursive-exlude env *
+global-include *_requirements.txt
+global-exclude *_dev.py
+global-exclude .gitignore

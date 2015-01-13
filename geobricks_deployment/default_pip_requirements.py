@@ -1,3 +1,4 @@
+uwsgi
 -r https://raw.githubusercontent.com/mapbox/rasterio/master/requirements.txt
 rasterio
 GeobricksCommon
@@ -7,3 +8,4 @@ GeobricksSpatialQuery
 GeobricksDistribution
 GeobricksGeostatistics
 GeobricksGeocoding
+GeobricksRESTEngine
