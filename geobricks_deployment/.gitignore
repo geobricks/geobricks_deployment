@@ -1,3 +1,2 @@
-/GeobricksDeployment.egg-info/
-/dist/
 *.py~
+*.pyc
