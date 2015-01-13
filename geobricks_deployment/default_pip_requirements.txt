@@ -1,0 +1,7 @@
+GeobricksCommon
+GeobricksDBMS
+GeobricksGISRaster
+GeobricksSpatialQuery
+GeobricksDistribution
+GeobricksGeostatistics
+GeobricksGeocoding
