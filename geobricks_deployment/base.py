@@ -60,7 +60,8 @@ def install_pip(name, install_path="", virtualenv=True, upgrade=False):
     for n in name:
         cmd.append(n)
     if upgrade:
-        cmd.append("--upgrade")
+        if len(name) == 1:
+            cmd.append("--upgrade")
     print cmd
     output = subprocess.check_call(cmd)
     print output
