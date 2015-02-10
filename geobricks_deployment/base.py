@@ -62,9 +62,13 @@ def install_pip(name, install_path="", virtualenv=True, upgrade=False):
     if upgrade:
         if len(name) == 1:
             cmd.append("--upgrade")
-    print cmd
-    output = subprocess.check_call(cmd)
-    print output
+            print cmd
+            output = subprocess.check_call(cmd)
+            print output
+    else:
+        print cmd
+        output = subprocess.check_call(cmd)
+        print output
 
 
 def copy_resources_to_env():
