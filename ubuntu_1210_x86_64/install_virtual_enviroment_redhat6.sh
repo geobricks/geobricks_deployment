@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # creating virtualenv
-virtualenv env/
+#virtualenv env/
 
-# virtualenv -p /usr/local/bin/python2.7 env/ (FOR REDHAT6!)
+virtualenv -p /usr/local/bin/python2.7 env/ (FOR REDHAT6!)
 
 # install packages
 env/bin/pip install -r https://raw.githubusercontent.com/mapbox/rasterio/master/requirements.txt
@@ -35,8 +35,10 @@ env/bin/pip install GeobricksRESTEngine
 #export CPLUS_INCLUDE_PATH=/usr/include/gdal
 #export C_INCLUDE_PATH=/usr/include/gdal
 #env/bin/pip install GDAL
-env/bin/pip install pygdal
-# env/bin/pip install pygdal=1.9.2 (for redhat6)
+
+# GDAL
+#env/bin/pip install pygdal
+env/bin/pip install pygdal=1.9.2
 
 # install uwsgi
 env/bin/pip install uwsgi

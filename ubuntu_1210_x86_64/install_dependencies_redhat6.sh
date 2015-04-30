@@ -18,7 +18,9 @@ sudo apt-get -y install libblas3gf libc6 libgcc1 libgfortran3 liblapack3gf libst
 sudo apt-get -y install python-dev
 
 # scipy dependency
-sudo apt-get -y install libblas-dev liblapack-dev
+#sudo apt-get -y install libblas-dev liblapack-dev
+# yum install blas lapack (there is not DEVEL on redhat6 so it's imporssible to install with pip install scipy!)
+yum install scipy
 
 # general
 sudo apt-get -y install python-pip
